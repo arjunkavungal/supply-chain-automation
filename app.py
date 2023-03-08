@@ -27,7 +27,7 @@ def upload_a_file():
         x = [[12],[1],[11],[10],[9]]
         y = gb['Product']
         model = LinearRegression().fit(x, y)
-        s += i + str(model.predict([[13]])[0])
+        s += i + str(model.predict([[13]])[0]) # predict for january
       return s
    return s
 
